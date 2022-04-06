@@ -1,0 +1,13 @@
+// Scss Document
+@mixin order-list {
+	color: #634C36;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: upper-roman;
+    margin-left: 25px;
+}
+@mixin unordered-list {
+	color: #634C36;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-image: url("../images/foundation_bullet.gif");
+    margin-left: 20px;
+}
